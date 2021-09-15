@@ -1,0 +1,89 @@
+h1 {
+    color:blueviolet;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cardbox {
+    height: 500px;
+    width: 350px;
+    padding: 30px;
+    border: 5px solid rgb(209, 209, 245);
+    border-radius: 3px 90px 3px 50px;
+    background-color: rgb(243, 251, 252);
+    display: inline-block;
+    border-style: ridge;
+    border-left: double darkmagenta;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.flexbox-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(252, 230, 249);
+    flex-wrap: wrap;
+}
+
+
+.image-container {
+/* Specify the size for the box */
+/* width = the card's width */
+    width: 100%;
+/* Some height in px, smaller that the card's height */
+    height: 300px;
+/* Crop the image if it's larger that the box */
+    overflow: hidden;
+
+/* Move the image to the center of the box */
+/* Remember these 3 lines. You will use them a lot with
+
+Flexbox! */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    /* height: 300px;
+    width: 100%; */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+}
+
+div.cardbox img:hover {
+    border-radius: 30%;
+    opacity: 1;
+}
+
+#main-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: darkblue;
+}
+
+.subtitle {
+    color:darkslateblue;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+/*this does the same thing but on each h2 */
+
+h2 {
+    color:darkslateblue;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+}
