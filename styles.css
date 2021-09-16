@@ -28,7 +28,17 @@ body {
     background-color: rgb(225, 245, 248);
     transform: scale(1.05) rotate(-5deg);
     box-shadow: 0px 0px 30px rgb(185, 149, 206);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+@keyframes example {
+    0%   {border-color: red;}
+    25%  {border-color: orange;}
+    50%  {border-color: yellow;}
+    75%  {border-color: green;}
+    100% {border-color: blueviolet;}
+          }
 
 .flexbox-cards {
     display: flex;
