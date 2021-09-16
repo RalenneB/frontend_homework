@@ -14,8 +14,9 @@ body {
     border-radius: 3px 90px 3px 50px;
     background-color: rgb(243, 251, 252);
     display: inline-block;
-    border-style: ridge;
-    border-left: double darkmagenta;
+    border-style: double darkmagenta;
+    border-left: hidden;
+    border-top: hidden;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* //for the last day stuff */
